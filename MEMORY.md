@@ -1,4 +1,4 @@
-- [Sync to Drive](feedback_sync-to-drive.md) — Upload memory/config files to Shared drives > Work > Claude Config at end of every session
+- [Sync to GitHub](feedback_sync-to-github.md) — commit & push memory folder to private repo QPOWNER/claude-memory at end of every session (replaced Drive sync 7/19/26; GCM auth stored)
 - [PC black screen issue](project_pc-black-screen-issue.md) — VERDICT 7/10: hardware power fault CONFIRMED (black screens recurred after full BIOS 9043 + ME firmware update). Action: ASUS warranty RMA, serial TAPFAG01149843C, script saved in memory file. No more DIY diagnostics
 - [Draft order from quote request](project_draft-order-from-quote-request.md) — "make a draft order for the latest quote request" = pull newest Tally email from Gmail, create Shopify draft order, never auto-send invoice
 - [Koozie pricing calculator page](project_koozie-pricing-calculator-page.md) — Shopify page embeds Tally form D4y7yN with hidden `quote` field; quantity lives inside the quote text; neoprene prices raised +20% on 7/5/26 (Regular $2.46→$1.98 by tier) — use these for draft orders

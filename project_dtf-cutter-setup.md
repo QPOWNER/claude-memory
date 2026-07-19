@@ -15,3 +15,6 @@ Set up 7/19/26: GCC Expert II LX cuts the user's daily DTF sheets into squares w
 - Coordinate convention in script: X = media feed direction (rows), Y = across carriage (cols); 1016 HPGL units/inch.
 - Cutter is blind (no registration marks yet) — user jogs blade to first print corner and sets origin on the panel per sheet. The LX has an AAS optical sensor if mark-based contour alignment is ever needed (requires printing L-marks on gang sheets).
 - As of setup, user hadn't yet given full-sheet cols×rows for the one-line daily command.
+- 7/19/26: stock 45° blade only cut through in one direction (dragging, snagged a sheet). User ordered from vinylcutterparts.com (~$66 w/ $12 ship): GCC Green Cap 60° 2.5mm blades + cutting strip. WAITING FOR DELIVERY — when it arrives: install strip + 60° blade (tip out ~credit-card thickness), then send test grid and re-tune force (expect below 250g, was FS250+VS20 on last test).
+- Blade fit warning: Expert II takes 2.5mm blades; Amazon multipacks are 2.0mm Roland-type mislabeled as GCC — don't buy those. HPN green cap out of stock 7/19/26.
+- Market research done 7/19/26: no auto DTF sheet cutter exists between ~$2k (hand-fed vinyl cutters) and ~$12k (Neolt XY / camera flatbeds, e.g. Printomize $11,995) — user's patent idea targets this gap; user asked for patent-landscape research as possible next step.
