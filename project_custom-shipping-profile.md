@@ -16,7 +16,7 @@ Rates (all names carry the production window; manual rates show NO arrival date 
 - **UPS 2nd Day Air — Custom Made, Ships After Production** — $24.95 (orders ≤ $200) / $44.95 (≥ $200.01)
 - **UPS Next Day Air — Custom Made, Ships After Production** — $34.95 (orders ≤ $200) / $69.95 (≥ $200.01)
 
-**Local delivery ($10, 23 ZIPs, $35 min) DISABLED store-wide 7/19/26** per merchant — free Local Pickup (2-hr window, text-first instructions, location 58018070724 "2700 Commerce Parkway") is the local option now. Local delivery is location-level (no Admin API — admin UI only: Settings > Shipping > Local delivery > location > status toggle); affects ALL products, not just custom.
+**Local delivery ($10, 23 ZIPs, $35 min) is ON** — I disabled it 7/19/26 misreading "change from local shipping to pickup 0$", merchant corrected ("I just asked to add pickup, not delete everything") → re-enabled same day; toggling off/on preserves the zone config. Free Local Pickup is ALSO on (2-hr window, text-first instructions, location 58018070724): it's the "Pickup" TAB at top of checkout, never a line in the shipping list. Local delivery is location-level (no Admin API — admin UI only: Settings > Shipping > Local delivery); affects ALL products. **Lesson: "change X to Y" from this merchant may mean "add Y" — confirm before removing anything that exists.**
 
 Expedited tiers are PRICE-based, not weight-based — customizer variants all have weight 0 (virtual quantity-tier products), so weight conditions never differentiate. ~$200 subtotal ≈ 90 units ≈ 5 lb. Expedited transit pairs with the Expedited Printing — Rush Add-On for actual fast turnaround (transit speed alone doesn't skip the 3-5 day production).
 
