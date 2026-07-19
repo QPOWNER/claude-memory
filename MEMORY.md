@@ -11,3 +11,4 @@
 - [DTF cutter setup](project_dtf-cutter-setup.md) — GCC Expert II LX cuts DTF into 3" squares via cut-grid.ps1 → "GCC-Cutter" raw queue; Force 200 verified 7/19/26
 - [Sumtracker inventory sync](project_sumtracker-inventory-sync.md) — chosen over Veeqo (no data to Amazon); Amazon wizard done 7/19/26, sync OFF until physical stocktake; Etsy + 95 missing SKUs outstanding
 - [PMax ad kit](project_pmax-ad-kit.md) — full Google Ads PMax asset group for design-your-koozie (copy + 6 creatives + 2 logos) in Downloads\QP-PMax-Ads, built 7/17/26; mockup webps are opaque white — trim() before layout
+- [FAQ & Track Order custom pages](project_faq-track-order-custom-pages.md) — FAQ Prime app replaced 7/19/26 with custom code in page bodies (/pages/faqs-1 + /pages/track-order-1), FAQPage schema live; user still needs to uninstall the app
