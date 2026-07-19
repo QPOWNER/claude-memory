@@ -12,4 +12,5 @@
 - [Sumtracker inventory sync](project_sumtracker-inventory-sync.md) — chosen over Veeqo (no data to Amazon); Amazon wizard done 7/19/26, sync OFF until physical stocktake; Etsy + 95 missing SKUs outstanding
 - [PMax ad kit](project_pmax-ad-kit.md) — full Google Ads PMax asset group for design-your-koozie (copy + 6 creatives + 2 logos) in Downloads\QP-PMax-Ads, built 7/17/26; mockup webps are opaque white — trim() before layout
 - [Approval mockup email](project_approval-mockup-email.md) — EVERY customizer order: fix art to print-ready, then Gmail draft from Documents\QP-Approval-Email template (Approve button); checkout now requires email (changed 7/19/26)
+- [QP Profit Dashboard](project_qp-profit-dashboard.md) — Sellerboard replacement built 7/19/26 in Documents\QP-Profit-Dashboard; BLOCKED on user's SP-API registration in Seller Central; export COGS from Sellerboard BEFORE cancelling
 - [FAQ & Track Order custom pages](project_faq-track-order-custom-pages.md) — BOTH FAQ apps (FAQ Prime + HelpCenter) replaced 7/19/26 with custom code: /pages/faqs-1 (31 Q&As + schema, HelpCenter KB harvested) + /pages/track-order-1; user must uninstall both apps
