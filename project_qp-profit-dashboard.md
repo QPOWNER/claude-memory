@@ -15,4 +15,4 @@ User is replacing Sellerboard ($30/mo, account yanivbiz1@gmail.com — Amazon: ~
 3. First `node sync.js` backfills from Jan 1 of prior year (30–90 min); delete demo `orders-*/finance-*/traffic-*/meta.json` first but KEEP cogs.json.
 4. `sync.js` is untested against the real API (no creds yet) — expect to debug field names on first real sync, especially Finances event casing and GET_SALES_AND_TRAFFIC_REPORT options.
 
-**Known gaps:** ad spend is ledger total only (per-product ACOS would need Amazon Ads API approval); no payout estimate/alerts/repricer. Validate a finished month against Sellerboard before cancelling.
+**Known gaps:** ad spend is ledger total only (per-product ACOS would need Amazon Ads API approval); no payout estimate/alerts/repricer. Validate a finished month against Sellerboard before cancelling. 185 zero-cost SKUs (mostly CUSTOMN-* custom prints) could be filled in later for better accuracy than Sellerboard ever had. Everything is local-only on this PC (user preference — no cloud); if the ASUS RMA takes the machine, copy the whole folder + Node to another PC. Offered but not yet built: desktop shortcut that starts server + opens browser.
