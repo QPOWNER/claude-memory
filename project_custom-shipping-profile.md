@@ -13,6 +13,10 @@ Rates (all names carry the production window; manual rates show NO arrival date 
 - **Free Shipping — Custom Made, Ships in 3-5 Business Days** — $0, orders ≥ $45
 - **Standard Shipping — Custom Made, Ships in 3-5 Business Days** — $6.95, orders ≤ $44.99
 - **Priority Shipping — Custom Made, Ships in 3-5 Business Days** — $9.95, unconditioned
+- **UPS 2nd Day Air — Custom Made, Ships After Production** — $24.95 (orders ≤ $200) / $44.95 (≥ $200.01)
+- **UPS Next Day Air — Custom Made, Ships After Production** — $34.95 (orders ≤ $200) / $69.95 (≥ $200.01)
+
+Expedited tiers are PRICE-based, not weight-based — customizer variants all have weight 0 (virtual quantity-tier products), so weight conditions never differentiate. ~$200 subtotal ≈ 90 units ≈ 5 lb. Expedited transit pairs with the Expedited Printing — Rush Add-On for actual fast turnaround (transit speed alone doesn't skip the 3-5 day production).
 
 **Why:** live USPS/UPS carrier rates display carrier-computed arrival dates (e.g. "Tue, Jul 21") that ignore production time — impossible to offset via API — so they were DELETED from this profile 7/19/26. General + "usa" profiles (stock products) still have carrier rates + "Free Shipping 2-3 Business Days" — correct for in-stock items; do NOT rename those.
 
