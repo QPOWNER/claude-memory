@@ -9,7 +9,8 @@ metadata:
 
 Shopify page gid://shopify/Page/131691446518 (handle: koozie-pricing-calculator) on quality-perfection.com is an interactive pricing calculator. On 2026-07-05 the old /contact form (which silently dropped file uploads) was replaced with an embedded Tally form https://tally.so/forms/D4y7yN (public: tally.so/r/D4y7yN).
 
-- The embed loads on "Send Quote Request →" click and passes `quote=<full calculator quote>` and `quantity=` as URL params.
+- **7/20/26: primary CTA is now "Order on the App →"** (#qpcAppLink) — links to the matching customizer page per selected type (regular→design-your-koozie, regular+camo→design-your-pattern-koozie, slim/16oz/magnetic→their pages). The Tally quote flow is the secondary button ("Prefer email? Send a quote request instead", #qpcOpenForm).
+- The embed loads on the quote-request button click and passes `quote=<full calculator quote>` and `quantity=` as URL params.
 - The Tally form has a hidden field named `quote`, so submissions automatically include the calculator quote. The "Estimated quantity" field was deleted 2026-07-05 (quantity lives inside the quote text).
 - Form fields: name (req), email (req), company, phone, 2 file uploads (JPEG/SVG/PDF/PNG, 10 MB), "Anything else we should know?" textarea.
 - Submissions/files are viewed in the Tally dashboard; related workflow: [[draft-order-from-quote-request]].
