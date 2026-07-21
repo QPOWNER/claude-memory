@@ -21,3 +21,4 @@ Fixed same day (baseline to compare against in ~3-4 weeks):
 - Theme CLI works from scratchpad with explicit flags: `shopify theme pull/push --store qualityperfection.myshopify.com --theme 159858032886 --only "snippets/structured-data.liquid" --allow-live` (bare `shopify theme list` without --store fails with scope error).
 - GSC Merchant listings UI: left nav Shopping > Merchant listings (deep-link URL guesses 404).
 - Related: [[aeo-content-pipeline]], [[qp-site-scanner]], [[customizer-art-pipeline]].
+- Scheduled task `weekly-website-improvement-check` (Mondays 9am, created 7/21/26) runs the full GSC + scanner + schema-integrity check and writes reports to Documents\QP-Weekly-SEO\ — don't duplicate it with ad-hoc checks unless the user asks.
