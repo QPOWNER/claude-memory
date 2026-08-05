@@ -1,3 +1,4 @@
+- [Never send email](feedback_never-send-email-without-approval.md) — HARD RULE: "answer/reply to X" = create a draft for review; NEVER send mail unless user explicitly approves the exact text
 - [Sync to GitHub](feedback_sync-to-github.md) — commit & push memory folder to private repo QPOWNER/claude-memory at end of every session (replaced Drive sync 7/19/26; GCM auth stored)
 - [Reviews & email flows](project_reviews-email-flows.md) — NO discounts ever (user policy); Vitals review-request timing fixed 3d→14d on 8/2/26 (74 sent/0 collected baseline — check ~8/23); winback stuck on discount requirement; Seguno gone, Shopify Messaging is the email system
 - [Bing Webmaster Tools](project_bing-webmaster-tools.md) — quality-perfection.com verified, sitemaps + Shopify IndexNow live; 316 dupe-meta flag FIXED 8/2/26 (55 products + 45 collections got unique SEO descriptions); Site Scan baseline pending; Copilot cites site but zero koozie informational queries yet
