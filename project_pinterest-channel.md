@@ -23,4 +23,16 @@ Pinterest business account for quality-perfection.com. Handle `@qualityperfectio
 
 Pinterest is pushing a pre-built Performance+ catalog sales campaign at $20/day (est. 0–14 checkouts/week). Not launched — user has not decided. Compare against PMax at $60/day (see [[project_pmax-ad-kit]]) before adding spend.
 
+**Merchant Guidelines strikes — found 8/4/26** at `https://www.pinterest.com/reports-and-violations/` (also renders blank for ~10s; use `read_page`, not screenshots):
+- **25 Pins Deactivated**, all cited under **Merchant Guidelines**, all typed "Created Pin" (manually created, NOT catalog-generated product pins). Dates: 23 on Aug 3, 1 on Aug 2, 1 on Jul 31, 2026. Single page — that's the full list.
+- **24 of 25 are marked "Appeal reviewed" and are still Deactivated** — appeals already filed and already lost. Their `...` menu offers only "Review Community Guidelines" / "Visit help center", no appeal path left. Only the Jul 31 row still shows "Appeal decision" as an available action.
+- **Every one uses the same image**: the multi-product color/pattern grid chart (thumbnail header reads "Regular Slim Pattern") — a swatch sheet showing dozens of koozies at once.
+- **Stated reason (confirmed from the PDFs, 8/5/26): "violates our Merchant Guidelines on prohibited products, because it contains adult products and content."** Not a format/collage problem — Pinterest classified koozie swatch-chart Pins as adult products. Decisions were made by **human review**, found through **Pinterest's own investigation** (not user reports).
+- Real timeline: deactivations landed **Jul 31 – Aug 1**; appeals were filed and **denied Aug 3** ("No change to decision", same reason). The "Aug 3" dates in the violations table are appeal-denial dates, not takedown dates.
+- All 25 were on the board **"Products"**. Sample Pin IDs: `4601201189505373056` (Jul 31, generic reason, STILL APPEALABLE), `4592545798896609664` (Aug 1, adult reason), `4605634424227746688` (Aug 1 deactivated → Aug 3 appeal denied).
+- "View full details (PDF)" silently downloads `StatementOfReasonsReport_<enforcementID>.pdf` to `C:\Users\qpllc\Downloads` — no new tab, no visible UI change. Check Downloads after clicking.
+- Every notice carries: "If we discover more content that violates our terms... we may take additional action on your account, such as deactivating it." **Account-deactivation risk is live — audit the Products board before pinning anything new, and do not re-upload the swatch-grid image.**
+- Account itself is NOT restricted — merchant status still Approved, catalog ingesting normally. Pin-level only.
+- Timing caveat: the strikes land 7/31–8/3, but the organic decline spans the full 30 days — the deactivations are the tail end, not the whole cause.
+
 Related: [[project_aeo-content-pipeline]] (the blog articles these pins point at), [[project_bing-webmaster-tools]].
