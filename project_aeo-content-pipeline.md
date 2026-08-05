@@ -20,3 +20,4 @@ Done Jul 13 2026:
 - Homepage/theme edits: MCP blocks live-theme writes; use CLI push pattern. Swap popular-reads cards = edit snippet + re-push.
 - **In-app browser cannot screenshot quality-perfection.com** — capture times out every attempt (page JS/DOM tools work fine). Verify visual changes via WebFetch + DOM queries, and point the user at the live browser pane instead.
 - Gap noted for next time: magnetic koozie line has zero blog articles.
+- 8/5/26: marketing-calculator article DRAFTED (gid://shopify/Article/598712615158, handle `marketing-calculators-advertising-roi-cac-conversion-rate-email-revenue`) — 4 interactive calcs (ad ROI/ROAS, CAC, conversion rate, email revenue) as inline scoped HTML/JS (`.qpmc` prefix) in article body; JS verified working locally; SEO via global.title_tag/description_tag metafields + FAQPage JSON-LD. Awaiting user review → publish. Inline <script> in article body survives the API round-trip fine.
